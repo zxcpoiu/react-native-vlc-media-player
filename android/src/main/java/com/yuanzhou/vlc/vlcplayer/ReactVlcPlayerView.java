@@ -408,7 +408,7 @@ class ReactVlcPlayerView extends TextureView implements
             }
             eventEmitter.loadStart();
 
-            setProgressUpdateRunnable();
+            //setProgressUpdateRunnable();
         } catch (Exception e) {
             e.printStackTrace();
             //Toast.makeText(getContext(), "Error creating player!", Toast.LENGTH_LONG).show();
@@ -600,7 +600,7 @@ class ReactVlcPlayerView extends TextureView implements
 
     @Override
     public void onSurfaceTextureUpdated(SurfaceTexture surface) {
-        Log.i("onSurfaceTextureUpdated", "onSurfaceTextureUpdated");
+        //Log.i("onSurfaceTextureUpdated", "onSurfaceTextureUpdated");
     }
 
     private final Media.EventListener mMediaListener = new Media.EventListener() {

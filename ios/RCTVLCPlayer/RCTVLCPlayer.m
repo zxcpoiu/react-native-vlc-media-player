@@ -157,7 +157,8 @@ static NSString *const playbackRate = @"rate";
 
 - (void)mediaPlayerTimeChanged:(NSNotification *)aNotification
 {
-    [self updateVideoProgress];
+    return;
+    //[self updateVideoProgress];
 }
 
 - (void)mediaPlayerStateChanged:(NSNotification *)aNotification
