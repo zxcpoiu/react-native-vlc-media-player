@@ -27,7 +27,7 @@ public class ReactVlcPlayerViewManager extends SimpleViewManager<ReactVlcPlayerV
     private static final String PROP_SEEK = "seek";
     private static final String PROP_RESUME = "resume";
     private static final String PROP_RATE = "rate";
-    private static final String PROP_POSITION = "position";
+    private static final String PROP_POSITION = "mediaPosition";
     private static final String PROP_VIDEO_ASPECT_RATIO = "videoAspectRatio";
     private static final String PROP_SRC_IS_NETWORK = "isNetwork";
     private static final String PROP_SNAPSHOT_PATH = "snapshotPath";
